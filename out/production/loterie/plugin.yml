@@ -1,0 +1,11 @@
+name: SoleriaLoterie
+version: 1.0
+author: Godartm
+main: fr.godartm.main.Main
+description: Plugin de lotterie
+depend: [Vault]
+
+commands:
+  loterie:
+    description: Ouvre l'interface de loterie
+    aliases: [lottery]

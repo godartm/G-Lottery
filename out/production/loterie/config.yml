@@ -1,0 +1,24 @@
+storage:
+  # Mysql storage
+  mysqlStorage:
+    urlBase: "jdbc:mysql://"
+    host: "localhost"
+    port: "3306"
+    database: "lottery"
+    # full perm user
+    username: "root"
+    password: "root66"
+lotery:
+  price: 1000
+  color_select : 13
+  color_default : 9
+  reward:
+    #Doit être égal a 100 (pourcentage pour les gagnants).
+    fiveNumber : 70
+    fourNumber : 20
+    threeNumber : 9
+    twoNumber: 1
+    rewardDay: 3 #6 = samedi 7 = dimanche...
+    rewardHour : 7
+    rewardMinute : 50
+
